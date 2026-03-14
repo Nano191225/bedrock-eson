@@ -1,0 +1,45 @@
+{
+	"format_version": 3,
+	"header": {
+		"name": "bedrock-eson-lib",
+		"description": "bedrock-eson-lib",
+		"uuid": "17dc754d-86b8-40cb-a9d9-3c7ecbe49e78",
+		"version": "0.1.0",
+		"min_engine_version": "1.26.3"
+	},
+	"metadata": {
+		"authors": [
+			"YOUR NAME HERE"
+		],
+		"url": "https://example.com/your-project",
+		"generated_with": {
+			"nano191225-scriptup": [
+				"1.3.1"
+			]
+		}
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "7be6e050-868e-4ab9-a35e-f495c1a7cf16",
+			"version": "0.1.0"
+		},
+		{
+			"type": "script",
+			"uuid": "c710d097-8e78-47c0-a65e-6d80bbf7232f",
+			"version": "0.1.0",
+			"language": "javascript",
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.6.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.1.0-beta"
+		}
+	]
+}
